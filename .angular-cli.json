@@ -1,7 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "maria-miguel-profiles-app"
+    "name": "maria-miguel-profiles-app",
+    "ejected": true
   },
   "apps": [
     {
@@ -51,7 +52,8 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
-    "component": {}
+    "styleExt": "scss",
+    "component": {
+    }
   }
 }
