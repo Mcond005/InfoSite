@@ -1,7 +1,9 @@
 <h3> {{maria.name}}</h3>
 <p> information:</p>
-<ul>
-  <li *ngFor="let data of maria.information">
+<div class="row">
+<ul class="list-group col-md-3">
+  <li class="list-group-item" *ngFor="let data of maria.information">
     {{ data.descript }} : {{ data.info }}.
   </li>
 </ul>
+</div>
